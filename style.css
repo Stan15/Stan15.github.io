@@ -1,68 +1,49 @@
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    color: #202020;
-    padding: 0px;
-    font-family: 'Arial', 'serif';
+    background-color: white;
+    font-family: 'Lato', sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: #202020
+.logo {
+    float: left;
+    margin: 5px;
+    height: 30px;
 }
 
-a:hover {
-    color: #8a8a8a
+header {
+    display: block;
+    margin: 30px 80px 30px 80px;
 }
 
-#header {
-    color: black;
-    display: flex;
-    width: 100%;
+header::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
-.nav {
-    border-spacing: 12px;
-    margin-right: 0px;
-    margin-left: auto;
-    font-size: 12px;
+nav {
+    float: right;
+    margin: auto;
 }
 
-#socialIcons {
-    padding-left: 12px;
-    padding-top: 12px;
+nav ul {
+    margin: auto;
+    list-style: none;
 }
 
-#banner {
+nav li {
     display: inline-block;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(230, 230, 230);
-    color: black;
-    height: 300px;
-    width: 100%;
+    margin-left: 3em;
+    font-weight: 300;
+    line-height: 40px;
+    color: #707070;
 }
 
-#bannercontent {
-    margin: auto;
-    width: 70%;
-}
-
-#title {
-    padding-top: 0px;
-    margin: 90px auto auto auto;
-    font-size: 45px;
-}
-
-#lang {
-    padding: 20px;
-    width: 60%;
-    margin: auto;
-    text-align: center;
-}
-
-#lang>table {
-    border-spacing: 20px;
+#backdrop {
+    position: absolute;
+    height: 1000px;
+    width: 525px;
+    top: 25%;
+    left: 20%;
+    background-color: rgba(0, 94, 255, 0.068);
+    border-radius: 1em;
 }
