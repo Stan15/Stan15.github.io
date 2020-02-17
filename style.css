@@ -1,6 +1,8 @@
-body {
+html, body {
     background-color: white;
     font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 .logo {
@@ -9,9 +11,28 @@ body {
     height: 30px;
 }
 
+a{
+    text-decoration: none;
+    color: #707070;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a::after {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+
 header {
     display: block;
     margin: 30px 80px 30px 80px;
+    min-width: 550px;
+    white-space: nowrap;
 }
 
 header::after {
@@ -26,7 +47,8 @@ nav {
 }
 
 nav ul {
-    margin: auto;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
@@ -38,12 +60,42 @@ nav li {
     color: #707070;
 }
 
+#home {
+    margin-left: 0px;
+}
+
 #backdrop {
     position: absolute;
-    height: 1000px;
-    width: 525px;
-    top: 25%;
+    height: 2000px;
+    width: 42%;
+    min-width: 400px;
+    padding: 0px;
+    top: 130px;
     left: 20%;
-    background-color: rgba(0, 94, 255, 0.068);
+    background-image: linear-gradient( rgba(0, 94, 255, 0.03),white);
     border-radius: 1em;
+}
+
+#title {
+    position: absolute;
+    top: 80px;
+    left: 19%;
+}
+
+#title p {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5em;
+    color: #707070;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+#contact {
+    position: absolute;
+}
+
+#page {
+    background-color: tomato;
+    width: 100%;
+    height: fit-content;
 }
