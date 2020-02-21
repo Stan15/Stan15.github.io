@@ -60,6 +60,13 @@ nav li {
     color: #707070;
 }
 
+.heading {
+    margin: 15px;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #707070;
+}
+
 #home {
     margin-left: 0px;
 }
@@ -74,14 +81,16 @@ nav li {
 }
 
 #backdrop {
+    display: flex;
+    flex-direction: column;
     position: relative;
     height: 2000px;
     width: 42%;
     min-width: 400px;
-    left: 20%;
+    left: 22%;
     padding: 0px;
     background-image: linear-gradient( rgba(0, 94, 255, 0.03) 90%,white);
-    border-radius: 1em;
+    border-radius: 0.7em;
 }
 
 #title {
@@ -121,7 +130,48 @@ nav li {
     margin-top: 150px;
     margin-bottom: 70px;
     height: 180px;
-    width: 390px;
+    width: 400px;
     background-color: transparent;
     border: #cccccc solid 1px;
+}
+
+.contentBox {
+    position: relative;
+    top: 310px;
+    padding-bottom: 100px;
+    background-color: aliceblue;
+}
+
+.rightCard {
+    position: relative;
+    left: 85%;
+    top: 25px;
+    width: 280px;
+    height: 290px;
+    padding: 1px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(225, 236, 255);
+    border-radius: 0.7em;
+}
+
+.leftCard {
+    position: relative;
+    margin-left: -170px;
+    top: 25px;
+    width: 250px;
+    height: 63px;
+    padding: 1px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(225, 236, 255);
+    border-radius: 0.7em;
+}
+
+#skillsInfo {
+    position: relative;
+    background-color: whitesmoke;
+    height: 500px;
+    left: 15%;
+    width: 85%;
 }
