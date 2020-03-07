@@ -87,7 +87,7 @@ nav li {
     min-width: 400px;
     left: 22%;
     padding: 0px;
-    background-image: linear-gradient( rgba(0, 94, 255, 0.03) 90%,white);
+    background-image: linear-gradient( rgba(0, 94, 255, 0.03) 96%,white);
     border-radius: 0.9em;
 }
 
@@ -153,35 +153,37 @@ nav li {
     white-space: nowrap;
     background-color: rgb(225, 236, 255);
     border-radius: 0.9em;
-    z-index: 0;
+    z-index: 1;
 }
 
 .leftCard {
     position: relative;
     margin-left: -180px;
     top: 25px;
-    width: 240px;
+    width: 220px;
     height: 63px;
     padding: 1px;
     text-align: center;
     white-space: nowrap;
     background-color: rgb(225, 236, 255);
     border-radius: 0.9em;
+    z-index: 1;
 }
 
 #imageContainer {
     position: absolute;
+    text-align: center;
     margin: auto;
     height: fit-content;
-    width: fit-content;
-    z-index: 3;
+    width: inherit;
+    z-index: 0;
 }
 
 #projects img {
     position: relative;
+    display: inline-block;
     margin-top: 20px;
     top: 0px;
     width: 70%;
-    border: rgb(0, 0, 0) solid 2px;
-    z-index: 1;
+    border: rgb(55, 66, 85) solid 2px;
 }
