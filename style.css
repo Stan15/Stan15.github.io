@@ -88,7 +88,7 @@ nav li {
     left: 22%;
     padding: 0px;
     background-image: linear-gradient( rgba(0, 94, 255, 0.03) 90%,white);
-    border-radius: 0.7em;
+    border-radius: 0.9em;
 }
 
 #title {
@@ -136,44 +136,51 @@ nav li {
 .contentBox {
     position: relative;
     display: block;
-    top: 310px;
+    min-height: 100px;
+    top: 330px;
     padding-bottom: 100px;
     z-index: 1;
 }
 
 .rightCard {
     position: relative;
-    left: 85%;
+    float: right;
+    margin-right: -220px;
     width: 280px;
     height: 290px;
     padding: 1px;
     text-align: center;
     white-space: nowrap;
     background-color: rgb(225, 236, 255);
-    border-radius: 0.7em;
+    border-radius: 0.9em;
     z-index: 0;
 }
 
 .leftCard {
     position: relative;
-    margin-left: -170px;
+    margin-left: -180px;
     top: 25px;
-    width: 250px;
+    width: 240px;
     height: 63px;
     padding: 1px;
     text-align: center;
     white-space: nowrap;
     background-color: rgb(225, 236, 255);
-    border-radius: 0.7em;
+    border-radius: 0.9em;
+}
+
+#imageContainer {
+    position: absolute;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    z-index: 3;
 }
 
 #projects img {
     position: relative;
-    top: 0px;
-    margin-right: 20%;
-    margin-left: 8%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    top: 0px;
     width: 70%;
     border: rgb(0, 0, 0) solid 2px;
     z-index: 1;
