@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9108e04.chunk.css",
+    "main.js": "/static/js/main.d994ac0f.chunk.js",
+    "main.js.map": "/static/js/main.d994ac0f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.af4346a4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.af4346a4.js.map",
+    "static/js/2.e2598d2c.chunk.js": "/static/js/2.e2598d2c.chunk.js",
+    "static/js/2.e2598d2c.chunk.js.map": "/static/js/2.e2598d2c.chunk.js.map",
+    "static/js/3.dccbed3a.chunk.js": "/static/js/3.dccbed3a.chunk.js",
+    "static/js/3.dccbed3a.chunk.js.map": "/static/js/3.dccbed3a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d9108e04.chunk.css.map": "/static/css/main.d9108e04.chunk.css.map",
+    "static/js/2.e2598d2c.chunk.js.LICENSE.txt": "/static/js/2.e2598d2c.chunk.js.LICENSE.txt",
+    "static/media/Resume.19b5cdfb.pdf": "/static/media/Resume.19b5cdfb.pdf",
+    "static/media/conways_game_of_life.d907198a.gif": "/static/media/conways_game_of_life.d907198a.gif",
+    "static/media/logo.040a6e8b.svg": "/static/media/logo.040a6e8b.svg",
+    "static/media/minigame.bb511197.gif": "/static/media/minigame.bb511197.gif",
+    "static/media/resume.5304a1ec.jpg": "/static/media/resume.5304a1ec.jpg",
+    "static/media/sudoku.926a33bd.gif": "/static/media/sudoku.926a33bd.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af4346a4.js",
+    "static/js/2.e2598d2c.chunk.js",
+    "static/css/main.d9108e04.chunk.css",
+    "static/js/main.d994ac0f.chunk.js"
+  ]
+}
